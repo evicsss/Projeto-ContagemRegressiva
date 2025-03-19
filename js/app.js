@@ -1,6 +1,6 @@
 import { calculateTimeLeft, render } from "./countdown.js";
 
-const targetDate = new Date(2025, 5, 9, 21, 35);
+const targetDate = new Date(2025, 4, 9, 21, 35);
 
 const countdown = () => {
     const timeLeftObj = calculateTimeLeft(targetDate);
